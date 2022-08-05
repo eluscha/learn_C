@@ -2,7 +2,10 @@
 
 int main(void)
 {
-	char *my_str = "Hello world!";
-	printf("%s\n",my_str);
+	int int_array[10] = {1,2,3,4,5,6,7,8,9,10};
+	for (int i = 0; i < 10; i++)
+	{
+		printf("%i\n",int_array[i]);
+	} 
 	return 0;
 }
